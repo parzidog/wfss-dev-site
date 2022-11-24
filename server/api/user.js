@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const Sequelize = require("sequelize");
-const User = require("../db/User");
+const User = require("../db/models/User");
 const { requireToken, isAdmin } = require("./gatekeepingMiddleware");
 
 //USER ACCOUNT ROUTES
